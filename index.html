@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" /> <!-- Character encoding for the document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Viewport settings for responsive design -->
+  <title>My Site</title> <!-- Title of the page -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" />
+  <!-- Link to Google Fonts -->
+  <link rel="stylesheet" href="styles.css" /> <!-- Link to the external stylesheet -->
+
+  <!-- Open Graph meta tags for rich link previews -->
+  <meta property="og:title" content="Spencer Smith's Site" />
+  <meta property="og:description"
+    content="The official home of my projects, writings, photography and anything else I find interesting." />
+  <meta property="og:image" content="https://spencersmith.site/assets/logo.jpg" />
+  <meta property="og:url" content="https://spencersmith.site />
+  <meta property=" og:type" content="website" />
+
+  <!-- Twitter Card meta tags for Twitter link previews -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Spencer Smith's Site" />
+  <meta name="twitter:description"
+    content="The official home of my projects, writings, photography and anything else I find interesting." />
+  <meta name="twitter:image" content="https://spencersmith.site/assets/logo.jpg" />
+  <meta name="twitter:site" content="@spencersmthsite" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu"> <!-- Navigation menu -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/pages/projects.html">Projects</a></li>
+        <li><a href="/pages/writings.html">Writings</a></li>
+        <li><a href="/pages/photography.html">Photography</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+      </ul>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div> <!-- Menu icon for toggling the navigation menu -->
+    </nav>
+  </header>
+  <main>
+    <div class="banner"> <!-- Banner section -->
+      <img src="assets/logo.png" alt="Logo" class="logo"> <!-- Logo image -->
+      <div class="page-title">Home</div> <!-- Page title -->
+    </div>
+    <section id="home">
+      <h1>Home</h1> <!-- Section title -->
+      <p>Welcome to my website!</p> <!-- Section content -->
+    </section>
+  </main>
+  <footer>
+    <div class="social-links"> <!-- Social media links -->
+      <a href="https://primal.net/p/npub1fsndf82plzymhaptnjzzzpj8cwymqfu2j6hy62hrnv8nn6dxk85qvtuxeq" target="_blank">
+        <img src="assets/nostr.png" alt="Nostr" class="nostr-logo"> <!-- Nostr icon -->
+      </a>
+      <a href="https://x.com/spencersmthsite" target="_blank">
+        <img src="assets/x.png" alt="X" class="social-icon"> <!-- X (formerly Twitter) icon -->
+      </a>
+      <a href="https://linkedin.com/in/spencersmithsite" target="_blank">
+        <img src="../assets/linkedin.png" alt="LinkedIn" class="linkedin-logo"> <!-- LinkedIn icon -->
+      </a>
+      <a href="https://instagram.com/spencersmithsite" target="_blank">
+        <img src="assets/instagram.png" alt="Instagram" class="social-icon"> <!-- Instagram icon -->
+      </a>
+    </div>
+  </footer>
+  <script src="scripts.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+
+</html>
